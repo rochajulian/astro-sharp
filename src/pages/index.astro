@@ -1,0 +1,17 @@
+---
+import ImageForm from '@components/ImageForm.svelte'
+---
+
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro + Sharp</title>
+	</head>
+	<body>
+		<h1>Minimal Reproduction of Astro Issue #10297</h1>
+    <ImageForm client:load />
+	</body>
+</html>
